@@ -25,7 +25,17 @@ The Collection that stores images is called 'images'. Each object is stored as a
            "$numberInt": "0"
          }
     }
+      
+The site also has a functioning user authentication. However it is not fully integrated into the site yet. You can login using the registered users and it works correctly however it still needs to be synced with the website so the site will have limited access to its features like uploading images.
+
+Use the following user information to access and test the login feature:
+
+        username: john@email.com
+        password: john123
         
+        username: jane@email.com
+        password: jane123
+
 # How To Run
 
 Assuming you have MongoDB and Node already installed on your local machine. To run locally:
