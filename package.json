@@ -13,6 +13,9 @@
   },
   "author": "Abdullah Khan",
   "license": "ISC",
+  "engines": {
+    "node": "14.x"
+  },
   "bugs": {
     "url": "https://github.com/akhan445/image-repository/issues"
   },
