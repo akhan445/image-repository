@@ -1,12 +1,12 @@
 <%- include("partials/header"); -%>
 
   <!-- cards -->
-  <div class="row row-cols-md-3 rows-cols-sm-1" data-masonry='{"percentPosition": true }'>
+  <div class="row row-cols-md-3 rows-cols-sm-1 align-items-center">
       <% images.forEach(image => { %>
         <div class="col">
 
-          <div class="card" style="max-width: 650px;">
-            <img src="<%=image%>" class="card-img-top" alt="">
+          <div class="card">
+            <img src="<%=image%>" class="img-thumbnail" alt="">
             <!-- <div class="card-body">
               <p class="card-text">Lorem Ipsum</p>
             </div> -->
