@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+  <!-- cards -->
+  <div class="row row-cols-md-3 rows-cols-sm-1" data-masonry='{"percentPosition": true }'>
+      <% images.forEach(image => { %>
+        <div class="col">
+
+          <div class="card">
+            <img src="<%=image%>" class="card-img-top" alt="">
+            <!-- <div class="card-body">
+              <p class="card-text">Lorem Ipsum</p>
+            </div> -->
+          </div>
+        </div>
+
+      <% }) %>
+    <!-- </div> -->
+  </div>
+  <!-- end cards -->
+
+  <%- include("partials/footer"); -%>

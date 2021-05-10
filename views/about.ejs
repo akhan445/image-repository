@@ -1,0 +1,33 @@
+<%- include("partials/header"); -%>
+<h1 class="text-center">About</h1>
+<p>This is an image repository website developed for Shopify's Developer Challenge.</p>
+<p>
+  The project is a image repository. It contains images that authenticated users can upload for other users to view/purchase.
+  </p>
+<p>
+  Currently it is still in development and has the following features:
+  <ul>
+    <p>
+      <li><strong>Uploading Images:</strong></li>
+      <ul>
+        <li>Users can upload images securely to the website. They have the option of 1 (minimum) to as many as they would like. User can only upload image types and will not be able to upload any other file types. In addition, users cannot upload duplicate images and will be prompted with an error message.</li>
+        <li>Once image(s) are verified, they will be added to the database and local repository</li>
+      </ul>
+      </p>
+      <p>
+        <li><strong>Beautiful looking display for images on the home page.</strong></li>
+        <ul>
+          <li>The Home page will display the images in a masonry grid layout.</li>
+          <li>NOTE: If the masonry layout is not working well on load, please refresh and try again. This is a bootstrap issue and not related to my code.</li>
+        </ul>
+        </p>
+        <p>
+          <li><strong>User Authenticaion (Level 1)</strong> (Still under developement)</li>
+          <ul>
+            <li>Valid users can login and will be validated. The idea is that in order to upload images you must be registered with the website.</li>
+            <li>Only registered users can access the image upload page and will be redirected unless they are authenticated.</li>
+          </ul>
+          </p>
+  </ul>
+  </p>
+<%- include("partials/footer"); -%>

@@ -1,0 +1,27 @@
+{
+  "name": "image-repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhan445/image-repository.git"
+  },
+  "author": "Abdullah Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhan445/image-repository/issues"
+  },
+  "homepage": "https://github.com/akhan445/image-repository#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "multer": "^1.4.2"
+  }
+}

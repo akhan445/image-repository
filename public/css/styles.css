@@ -1,0 +1,15 @@
+body {
+  background-color: #f5f5f5;
+
+}
+.main-container {
+  padding: 5% 5%;
+}
+/* 
+.loggedIn {
+  visibility: hidden;
+}
+
+.loggedOut {
+  visibility: visible;
+} */
